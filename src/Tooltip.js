@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import "./Tooltip.css"; // You can style it as you like
+import "./Tooltip.css";
 
 const Tooltip = ({ position, text, children }) => {
   const [showTooltip, setShowTooltip] = useState(false);
 
-
+//get tooltip style by position
   const getTooltipStyle = () => {
     switch (position) {
       case "top":
