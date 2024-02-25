@@ -32,7 +32,7 @@ const Tooltip = ({ position, text, children }) => {
           className={`tooltip tooltip-${position}`}
           style={getTooltipStyle()}
         >
-          {text}
+          {position+" "+text}
         </div>
       )}
     </div>
