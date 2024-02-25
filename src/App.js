@@ -5,7 +5,7 @@ import "./App.css";
 const App = () => {
   return (
     <div style={{ display: "flex", justifyContent: "center", padding: "20%" }}>
-      <Tooltip position="right" text="Tooltip">
+      <Tooltip position="top" text="Tooltip">
         <button className="hover-btn">Hover me</button>
       </Tooltip>
     </div>
